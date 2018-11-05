@@ -1,0 +1,217 @@
+body {
+  font-family: 'Play', sans-serif;
+}
+.countdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: white; 
+}
+
+.controller {
+  display: flex;
+  z-index: 15;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+  height: 65px;
+  align-items: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 0 2px 2px 2px;
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+}
+.button .btn {
+  width: 100px;
+}
+.countdown_text {
+  width: 100px;
+  text-align: center;
+  font-size: 3em;
+}
+
+
+.buttons-wrapper {
+  display: flex;
+  position: relative;
+  top: -30px;
+  height: 250px;
+  width: 100%;
+  align-items: stretch;
+  justify-content: space-evenly;  
+}
+.buttons-wrapper > div {
+  width: 48%;
+  border: solid black 2px;
+  text-align: center;
+  margin: .5% 0;
+}
+.blue {
+  background: lightblue;
+}
+.red {
+  background: pink;
+}
+.countup {
+  font-size: 4em;
+}
+
+.modal_wrapper {
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+.btn {
+    background: steelblue;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 10px silver;
+  cursor: pointer;
+}
+.config {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.save, .reset {
+  position: absolute;
+  right:20px;
+}
+.close:hover {
+  background: #396a93;
+  box-shadow: inset 0 -1px 15px #d9d9d9;
+}
+.modal {
+    position: relative;
+  background: white;
+  min-width: 350px;
+  width: 50%;
+  min-height: 250px;
+  padding: 15px;
+  box-shadow: inset 0 0 20px steelblue;
+  border-radius: 4px;
+}
+.modal > span {
+  font-size: 1.7em;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.modal_results {
+    position: relative;
+  background: white;
+  min-width: 350px;
+  width: 50%;
+  min-height: 250px;
+  padding: 15px;
+  box-shadow: inset 0 0 20px steelblue;
+  display:none;
+}
+
+
+.modal_results > span {
+  font-size: 1.7em;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.three, .four, .five, .six {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  padding: 3px 0;
+  height:20px;
+  vertical-align:top;
+}
+label > input {
+  padding: 0;
+  margin: 0;
+  margin-top:-6px;
+  vertical-align:top;
+}
+label > span {
+  background:pink;
+  width: 20px;
+  display: inline-block;
+  
+  vertical-align:top;
+  margin: 0;
+    padding: 0;
+}
+.input_wrapper {
+  padding: 3px;
+}
+
+.color_picker {
+  height: 120px;
+  width: 120px;
+  border: solid 1px red;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.color_picker > span {
+  height:38px;
+  width: 38px;
+  border: dash 1px black;
+  margin: 1px;
+
+  
+}
+.team_color {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: lightblue;
+}
+.pink {
+  background-color: pink;
+}
+.purple {
+  background-color: purple;
+}
+.yellow {
+  background-color: Gold;
+}
+.orange {
+  background-color: DarkOrange;
+}
+.red {
+  background-color: Crimson;
+}
+.brown {
+  background-color: SaddleBrown;
+}
+.darkblue {
+  background-color: RoyalBlue;
+}
+
+.disabled {
+  background:  SlateGrey ;
+  color: LightGray;
+  cursor: not-allowed; 
+}
