@@ -1,14 +1,31 @@
 Login screen
 
+## Screens of the app
+login /register
+events
+previous event
+create new event
+event lobby
+create new games
+start game screen 
+game in progress
+game ended / results 
+
+
+
+## user types 
+Already registered 
+New user Signing up
+Guest user joining game
 
 
 
 
 ## create game flow
-* User open app
 * login
-* create lobby ID
-* create game 
+* user lobby (join event, start event)
+* create Event
+* create / edit game 
   * game name
   * game type
   * teams
@@ -17,17 +34,21 @@ Login screen
     * random game length
       * min
       * max
-  * save new game
-* share game 
-  * added devices require approval
-* start game
-  * pick game from lobby to start
+  * save new game return to lobby
+* start /share game 
+  * pool of joinded devices will show
+  * select devices to be used in the game 
+  * start game or start game start countdown
+  * monitor game (score, Pause)
 * get results
-* new game or logout
+* return to event lobby
+* return to user lobby
+* exit / sign out 
 
 ## join game
-* User open app
-* enter lobby id 
+* Guest open app
+* enter event/ lobby ID 
+* Device registers with hosts event 
 * receive game details
   * join game
   * back
@@ -47,9 +68,7 @@ Login screen
 * display game over 
 * display results
 
-## user lobby
-* view list of games
-* 
+
 
 
 
