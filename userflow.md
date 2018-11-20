@@ -1,15 +1,12 @@
-Login screen
-
 ## Screens of the app
-login /register
-events
-previous event
-create new event
-event lobby
-create new games
-start game screen 
-game in progress
-game ended / results 
+Login /register / Guest
+List event that the user has hosted or been guest at
+Create new event
+Event lobby
+Create new games
+Start game screen 
+Game in progress
+Game ended / results 
 
 
 
@@ -22,51 +19,51 @@ Guest user joining game
 
 
 ## create game flow
-* login
-* user lobby (join event, start event)
-* create Event
-* create / edit game 
-  * game name
-  * game type
-  * teams
-    * team colour
-  * game length
-    * random game length
-      * min
-      * max
-  * save new game return to lobby
-* start /share game 
-  * pool of joinded devices will show
-  * select devices to be used in the game 
-  * start game or start game start countdown
-  * monitor game (score, Pause)
-* get results
-* return to event lobby
-* return to user lobby
-* exit / sign out 
+* Login
+* User lobby (join event, start event)
+* Create Event
+* Create / edit game 
+  * Game name
+  * Game type
+  * Teams
+    * Team colour
+  * Game length
+    * Random game length
+      * Min
+      * Max
+  * Save new game return to lobby
+* Start /share game 
+  * Pool of joinded devices will show
+  * Select devices to be used in the game 
+  * Start game or start game start countdown
+  * Monitor game (score, Pause)
+* Get results
+* Return to event lobby
+* Return to user lobby
+* Exit / sign out 
 
 ## join game
 * Guest open app
-* enter event/ lobby ID 
+* Enter event/ lobby ID 
 * Device registers with hosts event 
-* receive game details
-  * join game
-  * back
-* display joined game "waiting for game to start"
-* receive game start from host
-* start game 
-* display results
-* user lobby  
+* Receive game details
+  * Join game
+  * Back
+* Display joined game "waiting for game to start"
+* Receive game start from host
+* Start game 
+* Display results
+* Host lobby  
 
 ## managment screen
-* create or join game 
-* enters monitor mode 
-* host can start game
-* monitor start game count down
-* display live scores???
-* host can pause game
+* Create or join game 
+* Enters monitor mode 
+* Host can start game
+* Monitor start game count down
+* Display live scores???
+* Host can pause game
 * display game over 
-* display results
+* Display results
 
 
 
