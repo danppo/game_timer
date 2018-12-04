@@ -1,6 +1,6 @@
 ## Screens of the app
 Login /register / Guest
-List event that the user has hosted or been guest at
+List users history
 Create new event
 Event lobby
 Create new games
