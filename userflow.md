@@ -67,6 +67,13 @@ Guest user joining game
 
 
 
+## create game requirements
+* type
+* time
+* depending on game type nodes
+  * respawn nodes ( simple counters incriments )
+  * flux nodes ( 'turn' point between teams )
+  * domination timer ( counts turns and total team duration )
 
 
 
